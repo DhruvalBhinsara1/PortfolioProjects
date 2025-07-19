@@ -1,10 +1,16 @@
--- This is my first step into the DataAnalyst Journey
+-- This is my first step into the Data Analyst journey.
 
--- I have done few queries myself and I have seen videos for finding questions to solve.
+-- I have written a few queries myself and watched videos to find interesting questions to solve.
 
--- There as we go down towards the end there are few queries which do the same thing but I have done in few different ways too!
+-- As you go further down, you’ll notice some queries achieve the same results but are written in different ways.
 
--- If you are reading thing I am very thankful to you that you 
+-- I've worked on medium to advanced queries in this file. I had written some basic ones too, but unfortunately, I forgot to save them. 😅
+
+-- If you're reading this, I'm truly thankful to you.
+
+
+
+
 
 
 --most deaths in any country
