@@ -5,7 +5,7 @@ This repository contains a collection of portfolio projects demonstrating skills
 ## Directory Structure
 
 ```
-PortfolioProjects/
+.
 ├── README.md
 ├── EXCEL Project/
 │   ├── Leaning EXCEL/
@@ -30,23 +30,54 @@ PortfolioProjects/
 │   ├── Apocolypse Food Prep.xlsx
 │   ├── Lec 1.pbix
 │   ├── Lec 2.pbix
-│   ├── Lec 3.pbix
+│   ├── lec 3.pbix
 │   ├── Lec 4.pbix
-│   ├── Lec 5.pbix
+│   ├── lec 5.pbix
 │   ├── Lec 6.pbix
 │   ├── Lec 7.pbix
 │   ├── Lec 8.pbix
 │   ├── Power BI - Final Project.xlsx
 │   └── Power BI Final Project.pbix
 ├── Python Project/
-│   ├── Basic Syntax.ipynb
-│   ├── ControlFlow.ipynb
-│   ├── DataStructures.ipynb
-│   ├── DataTypes.ipynb
-│   ├── InputFunctions.ipynb
-│   ├── Operators.ipynb
-│   ├── UDFs.ipynb
-│   └── UserDefinedFunctions.ipynb
+│   ├── .vscode/
+│   │   └── settings.json
+│   ├── Automatic_File_Sorter/
+│   │   ├── bandhuconnectplus.jpg
+│   │   ├── hello_world.csv
+│   │   ├── IMG_1009.MOV
+│   │   ├── profile.jpg
+│   │   └── something.py
+│   ├── Learning How to make a Web Scraper/
+│   │   └── learning_scraper.py
+│   ├── learning pandas/
+│   │   ├── countries of the world.csv
+│   │   ├── countries of the world.txt
+│   │   ├── Customer Call List.xlsx
+│   │   ├── filtering and ordering.ipynb
+│   │   ├── Flavors.csv
+│   │   ├── groupby and aggregating.ipynb
+│   │   ├── Ice Cream Ratings.csv
+│   │   ├── index.ipynb
+│   │   ├── json_sample.json
+│   │   ├── List of the Countries and Territories.txt
+│   │   ├── LOTR 2.csv
+│   │   ├── LOTR.csv
+│   │   ├── merging joining.ipynb
+│   │   ├── reading files.ipynb
+│   │   ├── world_population_excel_workbook.xlsx
+│   │   └── world_population.csv
+│   ├── Python Basics Notes/
+│   │   ├── Basic Syntax.ipynb
+│   │   ├── ControlFlow.ipynb
+│   │   ├── DataStructures.ipynb
+│   │   ├── DataTypes.ipynb
+│   │   ├── InputFunctions.ipynb
+│   │   ├── Operators.ipynb
+│   │   ├── UDFs.ipynb
+│   │   └── UserDefinedFunctions.ipynb
+│   ├── WebScraper/
+│   │   ├── largest_companies_by_revenue.csv
+│   │   └── Scraper.py
 ├── SQL Projects/
 │   ├── Covid-19 Based/
 │   │   ├── COVID-19 based queries.sql
