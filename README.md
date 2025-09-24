@@ -67,6 +67,9 @@ Let's turn data into decisions! 💡
 │   │   ├── countries of the world.csv
 │   │   ├── countries of the world.txt
 │   │   ├── Customer Call List.xlsx
+│   │   ├── Customer Call List_Cleaned.xlsx
+│   │   ├── data cleaning.ipynb
+│   │   ├── exploratory data analysis.ipynb
 │   │   ├── filtering and ordering.ipynb
 │   │   ├── Flavors.csv
 │   │   ├── groupby and aggregating.ipynb
@@ -77,6 +80,7 @@ Let's turn data into decisions! 💡
 │   │   ├── LOTR 2.csv
 │   │   ├── LOTR.csv
 │   │   ├── merging joining.ipynb
+│   │   ├── pandas visualization.ipynb
 │   │   ├── reading files.ipynb
 │   │   ├── world_population_excel_workbook.xlsx
 │   │   └── world_population.csv
@@ -114,4 +118,5 @@ Let's turn data into decisions! 💡
         ├── Joins In Tableau.twb
         ├── Tableau Joins File.xlsx
         └── vgsales.csv
+
 ```
