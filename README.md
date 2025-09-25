@@ -53,8 +53,10 @@ Let's turn data into decisions! 💡
 │   ├── Power BI - Final Project.xlsx
 │   └── Power BI Final Project.pbix
 ├── Python Project/
-│   ├── .vscode/
-│   │   └── settings.json
+│   ├── Amazon WebScraper/
+│   │   ├── Amazon WebScraper.ipynb
+│   │   ├── AmazonWebScraperDataset.csv
+│   │   └── README.md
 │   ├── Automatic_File_Sorter/
 │   │   ├── bandhuconnectplus.jpg
 │   │   ├── hello_world.csv
@@ -82,8 +84,8 @@ Let's turn data into decisions! 💡
 │   │   ├── merging joining.ipynb
 │   │   ├── pandas visualization.ipynb
 │   │   ├── reading files.ipynb
-│   │   ├── world_population_excel_workbook.xlsx
-│   │   └── world_population.csv
+│   │   ├── world_population.csv
+│   │   └── world_population_excel_workbook.xlsx
 │   ├── Python Basics Notes/
 │   │   ├── Basic Syntax.ipynb
 │   │   ├── ControlFlow.ipynb
@@ -95,7 +97,7 @@ Let's turn data into decisions! 💡
 │   │   └── UserDefinedFunctions.ipynb
 │   ├── WebScraper/
 │   │   ├── largest_companies_by_revenue.csv
-│   │   └── Scraper.py
+│   │   └── WikiPedia Scraper.py
 ├── SQL Projects/
 │   ├── Covid-19 Based/
 │   │   ├── COVID-19 based queries.sql
