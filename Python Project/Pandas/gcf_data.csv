@@ -1,0 +1,11 @@
+student_id,name,age,grade,email
+1,John Smith,18,A,john.smith@example.com
+2,Emily Johnson,17,B+,emily.johnson@example.com
+3,Michael Brown,19,A-,michael.brown@example.com
+4,Sarah Davis,18,B,sarah.davis@example.com
+5,David Wilson,17,A,david.wilson@example.com
+6,Jennifer Lee,18,B+,jennifer.lee@example.com
+7,Robert Miller,19,C,robert.miller@example.com
+8,Lisa Taylor,17,A-,lisa.taylor@example.com
+9,James Anderson,18,B,james.anderson@example.com
+10,Megan Thomas,19,A,megan.thomas@example.com 
