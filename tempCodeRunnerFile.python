@@ -1,0 +1,83 @@
+from pymongo import MongoClient
+
+# Connect to MongoDB Atlas
+client = MongoClient(
+        "mongodb+srv://dhruval:5HRJqBiegxA8ACwj@pythonclasswork.zk03e8h.mongodb.net/?appName=PythonClassWork"
+    )
+client.admin.command("ping")
+print("Connected Successfully")
+
+db = client["dhruval"]
+
+# Connect to collection (better name: students)
+collection = db["students"]
+
+print("Connected to MongoDB Atlas Successfully!")
+
+while True:
+    print("\n------ MENU ------")
+    print("1. Insert Student")
+    print("2. View Students")
+    print("3. Update Student")
+    print("4. Delete Student")
+    print("5. Exit")
+
+    choice = input("Enter your choice: ")
+
+    # ---------------- INSERT ----------------
+    if choice == "1":
+        name = input("Enter name: ")
+        age = int(input("Enter age: "))
+        course = input("Enter course: ")
+
+        student = {
+            "name": name,
+            "age": age,
+            "course": course
+        }
+
+        collection.insert_one(student)   # ✅ FIXED
+        print("Student Inserted Successfully!")
+
+    # ---------------- READ ----------------
+    elif choice == "2":
+        print("\nStudent Records:")
+
+        students = collection.find({}, {"_id": 0})
+
+        for student in students:
+            print(student)
+
+    # ---------------- UPDATE ----------------
+    elif choice == "3":
+        name = input("Enter name to update: ")
+        new_age = int(input("Enter new age: "))
+
+        result = collection.update_one(
+            {"name": name},
+            {"$set": {"age": new_age}}
+        )
+
+        if result.modified_count > 0:
+            print("Student Updated Successfully!")
+        else:
+            print("Student Not Found!")
+
+    # ---------------- DELETE ----------------
+    elif choice == "4":
+        name = input("Enter name to delete: ")
+
+        result = collection.delete_one({"name": name})
+
+        if result.deleted_count > 0:
+            print("Student Deleted Successfully!")
+        else:
+            print("Student Not Found!")
+
+    # ---------------- EXIT ----------------
+    elif choice == "5":
+        print("Exiting program...")
+        break
+
+    else:
+        print("Invalid choice. Try again.")
